@@ -1,16 +1,14 @@
 <header id="home">
 	<div class="container">
 		<%= image_tag "logo-with-banner.png", class: "logo" %>
-		<h2>Esta precisando de um Rubista?</h2>
+		<h2>Está precisando de um Rubista?</h2>
 		<p> Anuncie sua vaga no RubyJobs e deixe mais de 4000 desenvolvedores saberem da sua vaga. </p>
 		<%= link_to "Anuncie uma vaga!", new_job_path, class: "btn btn-ghost"%>
 	</div>
 </header>
 
-
 <div class="main-section" id="<%= controller_action %>">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="page-header">
@@ -32,6 +30,5 @@
 				<%= link_to "Ver + vagas", :jobs, class: "show-more-jobs" %>
 			</div>
 		</div>
-
 	</div>
 </div>
